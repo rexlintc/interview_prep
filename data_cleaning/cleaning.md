@@ -1,48 +1,48 @@
 Data Type
 
-##Text Data
+## Text Data
 **Cleaning**
-[ ] lowercase
-[ ] remove stopwords
-[ ] remove URLs
-[ ] remove HTML tags
-[ ] remove punctuation
-[ ] anonymize (remove personal information)
+- [ ] lowercase
+- [ ] remove stopwords
+- [ ] remove URLs
+- [ ] remove HTML tags
+- [ ] remove punctuation
+- [ ] anonymize (remove personal information)
 **Preprocessing**
-[ ] stemming
-[ ] lemmatization
-[ ] POS Tagging
-[ ] spelling correction
+- [ ] stemming
+- [ ] lemmatization
+- [ ] POS Tagging
+- [ ] spelling correction
 **Embedding**
-[ ] Frequency Encoding
-[ ] One Hot Encoding
-[ ] TF-IDF
-[ ] Word2Vec
-[ ] FastText
-[ ] GloVe
-[ ] BERT
+- [ ] Frequency Encoding
+- [ ] One Hot Encoding
+- [ ] TF-IDF
+- [ ] Word2Vec
+- [ ] FastText
+- [ ] GloVe
+- [ ] BERT
 
 
-##Non Text Data
+## Non Text Data
 
-###Categorical
-####Nominal
-####Ordinal
-###Numerical
-####Interval
-####Ratio
+### Categorical
+#### Nominal
+#### Ordinal
+### Numerical
+#### Interval
+#### Ratio
 
-##Dimensionality Reduction
-[ ] [t-sne](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
-[ ] [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA)
-[ ] [UMAP](https://github.com/lmcinnes/umap)
+## Dimensionality Reduction
+- [ ] [t-sne](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
+- [ ] [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA)
+- [ ] [UMAP](https://github.com/lmcinnes/umap)
 
-##Visualization
-[ ] Line plot
-[ ] Bar Chart
-[ ] Box Plot
-[ ] Scatter Plot
-[ ] Histogram
+## Visualization
+- [ ] Line plot
+- [ ] Bar Chart
+- [ ] Box Plot
+- [ ] Scatter Plot
+- [ ] Histogram
 
 
 ##Tools/Libraries
