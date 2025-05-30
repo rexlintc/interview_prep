@@ -152,3 +152,56 @@ class Solution:
                 if curr_sum > target:
                     right -= 1
         return closest_sum
+    
+    # 75. Sort Colors
+    """
+    Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are 
+    adjacent, with the colors in the order red, white, and blue. We will use the integers 0, 1, and 2 to represent the 
+    color red, white, and blue, respectively.
+
+    You must solve this problem without using the library's sort function.
+
+    Example 1:
+
+    Input: nums = [2,0,2,1,1,0]
+    Output: [0,0,1,1,2,2]
+
+    Example 2:
+
+    Input: nums = [2,0,1]
+    Output: [0,1,2]
+
+    Constraints:
+        n == nums.length
+        1 <= n <= 300
+        nums[i] is either 0, 1, or 2.
+
+    """
+    def sortColors(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        red_count = 0
+        white_count = 0
+        blue_count = 0
+        for num in nums:
+            if num == 0:
+                red_count += 1
+            if num == 1:
+                white_count += 1
+            if num == 2:
+                blue_count += 1
+        for idx in range(len(nums)):
+            if red_count > 0:
+                nums[idx] = 0
+                red_count -= 1
+            elif white_count > 0:
+                nums[idx] = 1
+                white_count -= 1
+            else:
+                nums[idx] = 2
+                blue_count -= 1
+        return nums
+            
+
+        
